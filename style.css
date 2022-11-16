@@ -1,3 +1,58 @@
-.h1_style{
-  color: aqua;
+* {
+box-sizing: border-box;
+
 }
+
+body{
+  margin: 0;
+  
+}
+
+.nav1{
+  position: sticky;
+  top:0;
+  left: 0;
+  right: 0;
+
+}
+
+.ul1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: darkorange;
+  padding: 10px;
+  margin-right: 10px;
+  margin: 0;
+}
+
+
+.nav1 .ul1 li{
+  list-style: none;
+  padding: 10px;
+  text-decoration:none;
+
+}
+
+.nav1 .ul1 li a{
+ color: white;
+  text-decoration: none;
+  transition: all 700ms;
+  font-size: 18px;
+
+}
+
+
+.nav1 .ul1 li a:hover{
+   color:yellow;
+   text-decoration: underline;
+   font-size: 19px;
+ 
+}
+
+.nav1 .ul1 li:hover{
+  border: 2px solid red;
+  background-color: orange;
+}
+
+
