@@ -19,8 +19,8 @@ body{
 .ul1{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-color: darkorange;
+  
+  background-color: black;
   padding: 10px;
   margin-right: 10px;
   margin: 0;
@@ -31,6 +31,7 @@ body{
   list-style: none;
   padding: 10px;
   text-decoration:none;
+  padding-top: 16px;
 
 }
 
@@ -39,20 +40,113 @@ body{
   text-decoration: none;
   transition: all 700ms;
   font-size: 18px;
+  
 
 }
 
 
 .nav1 .ul1 li a:hover{
-   color:yellow;
+   color: #D7B56D;
    text-decoration: underline;
-   font-size: 19px;
+   
  
 }
 
 .nav1 .ul1 li:hover{
-  border: 2px solid red;
-  background-color: orange;
+ color: #D7B56D;
 }
 
+.head1{
+  display: flex;
+  background-image: url(/images/1.jpg);
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_logo{
+  width: 140px;
+  height: 60px;
+  margin: 0 0 0 300px;
+  
+}
+
+.img_text_logo{
+  
+  height: 36px;
+  width: 152px;
+  transform: translateX(-30px) translateY(6px);
+
+
+}
+
+.logo_all{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+.number{
+ text-align: center;
+ color: white;
+ text-align: end;
+ padding-left: 100px;
+ color: #D7B56D;
+
+ 
+}
+
+.telef_logo{
+  width: 20px;
+  height: 20px;
+  transform: translateX(90px) translateY(15px);
+}
+
+.back_call{
+  display: inline-block;
+  color: #D7B56D;
+  align-items: flex-end;
+  transform: translateX(-116px) translateY(20px);
+  
+
+
+}
+
+
+
+.main_head{
+  display: flex;
+  background-image: url(/images/DSC09905\ 2\ \(1\).jpg);
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfol{
+    display: flex;
+    color: black;
+    /* margin: 140px ; */
+    padding-left: 130px;
+   
+    
+  
+    
+}
+
+#im3{
+   align-self: flex-start;
+}
+
+#im4{
+  align-self: flex-end;
+  transform:translateX(-310px) translateY(-13px);
+}
 
